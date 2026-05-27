@@ -50,7 +50,6 @@ class GpuInfo:
     num_sm: int
     max_threads_per_sm: int
     max_regs_per_sm: int
-    max_smem_per_sm: Bytes
     warp_size: int
     peak_bw_gbs: GigabytesPerSec
     peak_fp32_tflops: TeraflopsPerSec
