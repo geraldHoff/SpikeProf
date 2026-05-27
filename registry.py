@@ -12,7 +12,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Callable, Mapping, Sequence
 
-from typedecs import (
+from .typedecs import (
     ByteModel,
     Bytes,
     FlopModel,

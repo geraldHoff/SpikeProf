@@ -12,9 +12,9 @@ import logging
 from dataclasses import dataclass
 from typing import Any, Callable, Mapping
 
-from models import Err, Ok, ProfileError, Result, SpikeProfileResult
-from metrics import with_cupti_metrics
-from typedecs import (
+from .models import Err, Ok, ProfileError, Result, SpikeProfileResult
+from .metrics import with_cupti_metrics
+from .typedecs import (
     CuptiBackend,
     CuptiTier,
     Milliseconds,

@@ -12,9 +12,9 @@ import logging
 from dataclasses import dataclass
 from typing import Any, Callable
 
-from models import Err, GpuInfo, Ok, ProfileError, Result, SpikeProfileResult
-from metrics import with_timing_metrics
-from typedecs import (
+from .models import Err, GpuInfo, Ok, ProfileError, Result, SpikeProfileResult
+from .metrics import with_timing_metrics
+from .typedecs import (
     Bytes,
     CuptiTier,
     Flops,

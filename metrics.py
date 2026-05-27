@@ -14,8 +14,8 @@ import dataclasses
 import math
 from typing import Literal, Sequence, Any
 
-from models import GpuInfo, SpikeProfileResult
-from typedecs import (
+from .models import GpuInfo, SpikeProfileResult
+from .typedecs import (
     Bytes,
     Flops,
     FractionZeroOne,

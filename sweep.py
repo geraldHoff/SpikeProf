@@ -13,7 +13,7 @@ import logging
 import math
 from typing import Any, Callable, Generic, Sequence, TypeVar, cast
 
-from models import (
+from .models import (
     Err,
     GpuInfo,
     Ok,
@@ -21,7 +21,7 @@ from models import (
     Result,
     SpikeProfileResult,
 )
-from typedecs import (
+from .typedecs import (
     CuptiTier,
     KernelGrid,
     KernelSpec,

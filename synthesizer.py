@@ -12,7 +12,7 @@ import logging
 from dataclasses import dataclass
 from typing import Any
 
-from typedecs import FractionZeroOne
+from .typedecs import FractionZeroOne
 
 logger = logging.getLogger(__name__)
 

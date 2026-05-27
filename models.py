@@ -23,7 +23,7 @@ from typing import (
     Union,
 )
 
-from typedecs import (
+from .typedecs import (
     Bytes,
     FractionZeroOne,
     Flops,

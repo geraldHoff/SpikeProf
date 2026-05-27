@@ -12,7 +12,7 @@ from __future__ import annotations
 import logging
 from typing import Any, Sequence
 
-from models import (
+from .models import (
     Err,
     GpuInfo,
     InferencePassResult,
@@ -21,7 +21,7 @@ from models import (
     Result,
     SpikeProfileResult,
 )
-from metrics import (
+from .metrics import (
     compute_edp,
     compute_neuronal_compute_frac,
     compute_per_timestep_cost,
@@ -29,25 +29,25 @@ from metrics import (
     estimate_power,
     with_snn_metrics,
 )
-from cupti import (
+from .cupti import (
     StubCuptiBackend,
     apply_cupti_to_result,
     collect_counters,
 )
-from sweep import (
+from .sweep import (
     SweepExecutor,
     build_scope_label,
     default_progress,
     select_cupti_tier,
     count_sweep_configs,
 )
-from timing import (
+from .timing import (
     StubTimingBackend,
     TritonTimingBackend,
     build_timing_result,
     time_kernel,
 )
-from typedecs import (
+from .typedecs import (
     CuptiBackend,
     CuptiTier,
     FractionZeroOne,

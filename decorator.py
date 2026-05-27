@@ -16,7 +16,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any, Callable, Iterable, Mapping
 
-from models import (
+from .models import (
     Err,
     GpuInfo,
     Ok,
@@ -24,9 +24,9 @@ from models import (
     Result,
     SpikeProfileResult,
 )
-from metrics import compose_results
-from registry import KernelRegistry, TritonKernelSpec
-from typedecs import (
+from .metrics import compose_results
+from .registry import KernelRegistry, TritonKernelSpec
+from .typedecs import (
     ByteModel,
     Bytes,
     CUPTI_ALL,

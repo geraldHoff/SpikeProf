@@ -12,8 +12,8 @@ import logging
 from dataclasses import dataclass
 from typing import Any
 
-from models import GpuInfo
-from typedecs import (
+from .models import GpuInfo
+from .typedecs import (
     Bytes,
     GigabytesPerSec,
     TeraflopsPerSec,
