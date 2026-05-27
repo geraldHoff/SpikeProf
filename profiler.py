@@ -87,7 +87,7 @@ def benchmark_kernel(
     # Get or detect GPU info
     if gpu_info is None:
         try:
-            from gpu_detector import detect_gpu
+            from .gpu_detector import detect_gpu
 
             gpu_info = detect_gpu()
         except RuntimeError as exc:
@@ -239,7 +239,7 @@ def profile_inference_pass(
     """
     if gpu_info is None:
         try:
-            from gpu_detector import detect_gpu
+            from .gpu_detector import detect_gpu
 
             gpu_info = detect_gpu()
         except RuntimeError as exc:

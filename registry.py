@@ -4,7 +4,7 @@ Kernel Registry
 
 Typed catalog of SNN kernel specifications. Uses Protocol-based
 structural typing — kernels need only satisfy the ``KernelSpec``
-interface, no inheritance required.
+interface.
 """
 
 from __future__ import annotations
