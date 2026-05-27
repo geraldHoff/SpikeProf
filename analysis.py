@@ -17,8 +17,8 @@ import statistics
 from dataclasses import asdict, fields
 from typing import Any, Callable, Mapping, Sequence
 
-from models import SpikeProfileResult, results_to_csv, results_to_json
-from typedecs import (
+from .models import SpikeProfileResult, results_to_csv, results_to_json
+from .typedecs import (
     FractionZeroOne,
     KernelCategory,
     Percentage,
