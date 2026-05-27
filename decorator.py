@@ -83,7 +83,7 @@ class ProfiledKernel:
 
         Delegates to ``benchmark_kernel`` from the profiling module.
         """
-        from profiler import benchmark_kernel
+        from .profiler import benchmark_kernel
 
         return benchmark_kernel(
             self.spec,
@@ -109,7 +109,7 @@ class ProfiledKernel:
 
         Delegates to ``profile_sweep`` from the profiling module.
         """
-        from profiler import profile_sweep
+        from .profiler import profile_sweep
 
         return profile_sweep(
             self.spec,
